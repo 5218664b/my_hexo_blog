@@ -1,0 +1,174 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: liujin
+subtitle:  
+author: 刘晋
+language: 
+timezone: 
+
+# custom Site settings
+# more detail check out docs
+SEOTitle: Liujin's blog 
+header-img: 
+email: liujin@purepure.top
+description: "just do it"
+keyword: learn
+
+favicon: # your favicon png
+# custom end
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://5218664b.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# SNS settings
+# RSS:
+weibo_username: 爱你还是一个人
+zhihu_username: 2101648015piO
+github_username: 5218664b
+twitter_username: liujin
+facebook_username:
+linkedin_username:
+
+# Build settings
+anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
+
+
+# Disqus settings 
+disqus_username:
+
+# Duoshuo settings
+duoshuo_username:  # 你的多说帐号
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# Use livere
+use_livere:
+
+# Valine comment system https://valine.js.org
+valine: 
+  enable: false
+  appid:  #Leancloud应用的appId
+  appkey:  #Leancloud应用的appKey
+  verify: false #验证码
+  notify: false #评论回复提醒
+  avatar: mm #评论列表默认头像样式
+  placeholder: Just go go #评论框占位符
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: b3aa67d27d85e0f672a5342b25803b1b
+# Google Analytics
+ga_track_id:             # Format: UA-xxxxxx-xx
+ga_domain:
+
+# Sidebar settings
+sidebar-about-description: "begin and try"
+sidebar-avatar: http://blog.cdn.purepure.top/header.jpg
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# friends
+friends: [ 
+            {
+                title: "purepure",
+                href: "http://www.purepure.top"
+            } 
+        ]
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 8
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+
+markdown:
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+    - markdown-it-emoji
+
+## Themes: https://hexo.io/themes/
+theme: Anisina
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:5218664b/5218664b.github.io.git
+  branch: master
+
+
+# img CDN path
+cdn-url: http://blog.cdn.purepure.top/
+
+# Qiniu imageView2 API
+# More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
+clip-content:
+clip-avatar:
+clip-home-post-bg:
+
+# post default images
+post-default-img: https://drscdn.500px.org/photo/276474535/q%3D80_h%3D300/v2?webp=true&sig=b091f7d6eba55e3f977eca45c716a94fd137964d7b5a27bc6b547cf41150b884#博文默认的图片
+post-default-img-mobile: #移动端显示的图片
+
+# search api , set your custom key
+swiftype_key: 
+
+
+# archive page title 
+archive:
+    title: archives
+    description: 可以根据归档日期检索所有文件
