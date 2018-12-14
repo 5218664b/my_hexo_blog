@@ -1,0 +1,61 @@
+menu:
+  Home: /
+  Archives: archives
+  page:
+    Archives: archives
+    About: aboutme/index.html
+
+widgets:
+- tag
+
+excerpt_link: Continue →
+
+mathjax: true
+fancybox: true
+print: true
+
+social:
+  twitter: false
+  github: true
+  gplus: false
+  rss: true
+  linkedin: false
+  facebook: true
+  coderwall: false
+  pinterest: false
+  zhihu: true
+  qzone: true
+
+twitter:
+  username:
+
+github:
+  username: 5218664b
+
+gplus:
+  username:
+
+linkedin:
+  username:
+
+facebook:
+  username: Mrliujin
+
+coderwall:
+  username:
+
+pinterest:
+  username:
+
+zhihu:
+  username: 2101648015piO
+  
+qzone:
+  username: 1141802674
+  
+addit:
+  facebook: false
+  twitter: false
+  gplus: false
+  pinit: false
+  publid:
