@@ -13,7 +13,7 @@ menu:
 # 随笔: /tags/随笔
 
 # Link to your avatar | 填写头像地址
-avatar: img/head.jpg
+avatar: img/header.jpg
 
 # Small icon of Your site | 站点小图标地址
 favicon: img/favicon.png
@@ -24,9 +24,9 @@ favicon: img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
-  github: "https://github.com/luuman"
-  zhihu: "#"
+  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=hre3sre_trSwsbLG9-eo5enr"
+  github: "https://github.com/5218664b"
+  zhihu: "https://www.zhihu.com/people/2101648015piO/activities"
   weibo: "#"
   google: "#"
   twitter: "#"
@@ -34,7 +34,7 @@ subnav:
   # facebook: "#"
   # rss: /atom.xml
   # pinterest: "#"
-  # QQ: "#"
+  QQ: "https://user.qzone.qq.com/1141802674"
   # wechat: "#"
   # douban: "#"
   # pinboard: "#"
@@ -48,24 +48,24 @@ subnav:
 
 disqus: 
   # on: true
-  shortname: luuman
+  shortname: 5218664b
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
   # on: true
-  domain: luuman
+  domain: 
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 gitment:
   on: true
-  owner: luuman
-  repo: luuman.github.io
-  client_id: 
-  client_secret: 
+  owner: 5218664b
+  repo: gitment
+  client_id: b0d89576f124a4bf5d09
+  client_secret: 6d2ba8055ff67f4dd0388326e27ef635ab7cc2ff
 
 youyan:
   #on: true
