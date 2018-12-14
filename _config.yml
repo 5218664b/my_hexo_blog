@@ -4,8 +4,8 @@
 
 # Site
 title: 纯
-subtitle: blog
-description:
+subtitle: 晋
+description: 于茫茫人海之中，寻吾唯一之灵魂伴侣
 keywords:
 author: 刘晋
 language:
@@ -74,7 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: greyshade
+theme: snippet #greyshade
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,3 +83,5 @@ deploy:
   repo: git@github.com:5218664b/5218664b.github.io.git
   branch: master
   message: 
+  
+header_img: /images/header.jpg
